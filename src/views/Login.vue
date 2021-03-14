@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-2xl mx-auto rounded bg-coolGray-800 text-coolGray-100">
+  <section class="container flex items-center justify-center text-center bg-content-800 rounded-xl mx-auto mt-24 max-w-md bg-coolGray-800 text-coolGray-100">
     <div
       class="container flex items-center justify-center text-center cc_cursor"
     >
