@@ -55,3 +55,4 @@ const logout = async () => {
   router.push('/')
 }
 </script>
+© 2021 GitHub, Inc.

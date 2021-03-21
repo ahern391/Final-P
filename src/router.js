@@ -3,22 +3,23 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/Home.vue'
 import Secret from './views/Secret.vue'
 import Login from './views/Login.vue'
+import SignUp from './views/SignUp.vue'
 import NotFound from './views/NotFound.vue'
 
-import {isAuthenticated} from './helpers/useAuth'
+import { isAuthenticated } from './helpers/useAuth'
 
 const routes = [
   { path: '/', component: Home },
   {
-    path: '/Secret',
+    path: '/secret',
     component: Secret,
-    beforeEnter: (to, from,) => {
-        console.log(isAuthenticated.value)
-        if( isAuthenticated.value ) return true
-        return '/Login'
+    beforeEnter: (to, from) => {
+      if (isAuthenticated.value) return true
+      return '/login'
     },
   },
-  { path: '/Login', component: Login },
+  { path: '/login', component: Login },
+  { path: '/signup', component: SignUp },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ]
 
