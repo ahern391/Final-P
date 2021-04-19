@@ -31,7 +31,7 @@
             to="/secret"
             class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
           >
-            Secret Page
+            Room Selection
           </router-link>
           <button
             class="btn btn-error btn-sm rounded-btn hover:text-content-100"
@@ -55,4 +55,3 @@ const logout = async () => {
   router.push('/')
 }
 </script>
-© 2021 GitHub, Inc.
