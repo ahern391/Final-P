@@ -1,8 +1,8 @@
 <template>
   <Alert v-if="isError" />
-  <div class="navbar mb-2 shadow-lg bg-content-800 text-content-100">
+  <div class="navbar mb-2 shadow-lg bg-content-800 text-content-100 ">
     <div class="flex-1 px-2 mx-2">
-      <span class="text-lg font-bold"> LoginExample </span>
+      <span class="text-lg font-bold"> Death Star Inn </span>
     </div>
     <div class="flex-none flex px-2 mx-2">
       <div class="flex">

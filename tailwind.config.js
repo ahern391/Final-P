@@ -35,7 +35,10 @@ module.exports = {
     extend: { colors: require('daisyui/colors')},
   },
   variants: {
-    extend: {},
+    extend: {
+		borderWidth: ['hover', 'focus'],
+
+	},
   },
   plugins: [require('daisyui')],
 }
