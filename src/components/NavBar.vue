@@ -1,11 +1,17 @@
 <template>
   <Alert v-if="isError" />
-  <div class="navbar mb-2 shadow-lg bg-content-800 text-content-100 ">
+  <div style="background-color:Silver; border:10px solid Black; color:Red; font-family:Georgia;" class="navbar mb-2 shadow-lg bg-content-800 text-content-100 ">
     <div class="flex-1 px-2 mx-2">
       <span class="text-lg font-bold"> Death Star Inn </span>
     </div>
     <div class="flex-none flex px-2 mx-2">
       <div class="flex">
+        <router-link
+        to="/About"
+        class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
+      >
+        About
+      </router-link>
         <router-link
           to="/"
           class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
@@ -15,13 +21,13 @@
         <div v-if="!isAuthenticated">
           <router-link
             to="/login"
-            class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
+             class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
           >
             Login
           </router-link>
           <router-link
             to="/signup"
-            class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
+             class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
           >
             SignUp
           </router-link>

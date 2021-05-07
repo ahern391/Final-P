@@ -1,10 +1,14 @@
 <template>
-  <div class="mt-8">
-    <p class="text-3xl mx-auto text-center m-16 tracking-wider font-thin">
-      Welcome {{ user?.displayName || 'New User' }}
-    </p>
-    <img class="h-60 mx-auto" src="../assets/Death.png" alt="Home Image" />
-    <body class="text-3xl mx-auto text-center m-16 tracking-wider font-thin">
+  <body style="background-image: url('DarthV.jpg'); border:10px solid Black; color:Red; font-family:Georgia;" class="text-3xl mx-auto text-center m-16 tracking-wider font-bold">
+    <div class="mt-8">
+      <p class="text-3xl mx-auto text-center m-16 tracking-wider font-thin">
+        Welcome {{ user?.displayName || 'New User' }}
+      </p>
+
+      <img   class="h-auto mx-auto mt-atuorun transform cursor-pointer hover:rotate-12 hover:border-red-400 hover:border-8" src="../assets/Int.gif" alt="Home Image"  />
+
+      <h1 class="text-3xl mx-auto text-center m-16 tracking-wider font-bold">Boom</h1>
+
       Welcome to the Death Star! In this amazing wonder of Imperial engineering,
       Lord Vader and Emperor Palpatine have created the Ultimate weapon to fight
       against the Rebel scum. This grand Sphere of Death requires a high
@@ -17,10 +21,10 @@
       will create an Online Website which you can use to reserve your stay at
       the Death for a vacation get away or as a resting stop for your galactic
       voyage.
-    </body>
-  </div>
+      
+    </div>
+  </body>
+  <audio controls autoplay="true">
+    <source src="../assets/DV.mp3" type="audio/mpeg">
+  </audio>
 </template>
-
-<script setup>
-import { user } from '../helpers/useAuth'
-</script>

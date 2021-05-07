@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
+import About from './views/About.vue'
 import Home from './views/Home.vue'
 import Secret from './views/Secret.vue'
 import Login from './views/Login.vue'
 import SignUp from './views/SignUp.vue'
 import NotFound from './views/NotFound.vue'
+
 
 import { isAuthenticated } from './helpers/useAuth'
 
