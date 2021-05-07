@@ -34,7 +34,7 @@
     
     <Body-1>
       <img
-      class="h-60 mx-auto mt-80"
+      class="h-80 mx-auto mt-atuorun transform cursor-pointer hover:rotate-12 hover:border-red-600 hover:border-8"
       src="../assets/Room1.jpg"
       alt="Secret Image"
       />
@@ -53,7 +53,7 @@
     
     <Body-2>
       <img
-      class="h-60 mx-auto mt-80"
+      class="h-80 mx-auto mt-atuorun transform cursor-pointer hover:rotate-12 hover:border-yellow-400 hover:border-8"
       src="../assets/Room2.webp"
       alt="Secret Image"
       />
@@ -71,7 +71,7 @@
     
     <Body-3>
       <img
-      class="h-60 mx-auto mt-80"
+      class="h-80 mx-auto mt-atuorun transform cursor-pointer hover:rotate-12 hover:border-purple-800 hover:border-8"
       src="../assets/Room3.png"
       alt="Secret Image"
       />

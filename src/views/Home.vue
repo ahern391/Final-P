@@ -1,5 +1,5 @@
 <template>
-  <body style="background-image: url('DarthV.jpg'); border:10px solid Black; color:Red; font-family:Georgia;" class="text-3xl mx-auto text-center m-16 tracking-wider font-bold">
+  <body style="background-color:Silver; border:10px solid Black; color:Red; font-family:Georgia;" class="text-3xl mx-auto text-center m-16 tracking-wider font-bold">
     <div class="mt-8">
       <p class="text-3xl mx-auto text-center m-16 tracking-wider font-thin">
         Welcome {{ user?.displayName || 'New User' }}
